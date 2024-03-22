@@ -1,4 +1,6 @@
-const btn = document.getElementById('explore-btn')
-btn.addEventListener('click', ()=>{
-    console.log('click');
+const menuBtn = document.getElementById('menu-btn')
+const navBar = document.querySelector('.nav-bar')
+
+menuBtn.addEventListener('click', ()=>{
+    navBar.classList.toggle('active')
 })
